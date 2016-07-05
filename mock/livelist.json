@@ -1,0 +1,32 @@
+{
+	"res":true,
+	"errcode":-1,
+	"errmsg":"",
+	"data":[
+		{	
+			"imgsrc":"/zlwm/images/shangpin1.jpg",
+			"title":"应缘包业有限公司"
+		},
+		{	
+			"imgsrc":"/zlwm/images/shangpin2.jpg",
+			"title":"河北老头乐服装有限公司"
+		},
+		{	
+			"imgsrc":"/zlwm/images/shangpin3.jpg",
+			"title":"北京应缘包业有限公司"
+		},
+		{	
+			"imgsrc":"/zlwm/images/shangpin4.jpg",
+			"title":"南京永辉包业有限公司"
+		},
+		{	
+			"imgsrc":"/zlwm/images/shangpin1.jpg",
+			"title":"秦安大象鞋业有限公司"
+		},
+		{	
+			"imgsrc":"/zlwm/images/shangpin6.jpg",
+			"title":"北京水动乐化学药品有限公司"
+		}
+	]
+	
+}

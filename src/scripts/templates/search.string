@@ -1,0 +1,16 @@
+<div class="m-home search-all">
+	
+	<header class="search-header"><b></b><span>分类</span><i class="yo-ico">&#xe616;</i></header>
+	<div class=search-list>
+	<ul>
+		<li><img src="/zlwm/images/searchList.jpg"><i>折扣衣服</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList.jpg"><i>折扣内衣</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList2.jpg"><i>折扣化妆品</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList3.jpg"><i>折扣皮具</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList2.jpg"><i>折扣数码</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList2.jpg"><i>折扣家电</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+		<li><img src="/zlwm/images/searchList3.jpg"><i>折扣食品</i><span></span><b><img src="/zlwm/images/kzh.jpg"></b></li>
+	
+	</ul>
+	<div>
+</div>

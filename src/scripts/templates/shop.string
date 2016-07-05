@@ -1,0 +1,30 @@
+<div class="m-home">
+	<header class="shop">
+		<i class="allshop">全部<img src="/zlwm/images/shangpinxia.jpg"></i><b>商品</b><i class="yo-ico">&#xe616;</i>
+	</header>
+	<section class="shop-section" spa-widget="scroll" data-scroll-id="homeHotScroll">
+		<div>
+		 	<div class="head">
+               <img src="/zlwm/images/arrow.png" />
+               <span>下拉刷新...</span>
+           </div>
+			<ul ms-repeat-value="livelist">
+				<li>
+					<img class="img-one" ms-src="value.imgsrc" />
+					<div class="factoryMemory">
+						<span ms-text="value.title">北京应缘包业有限公司</span>
+						<i>北京 北京</i>
+						<b>张总  15932689563</b>
+					</div>
+					<img class="img-two" src="/zlwm/images/kzh.jpg" />
+				</li>
+			
+			</ul>
+			<div class="foot">
+               <img src="/zlwm/images/arrow.png"/>
+               <span>上拉加载更多...</span>
+            </div>
+		</div>
+	</section>
+	 
+</div>

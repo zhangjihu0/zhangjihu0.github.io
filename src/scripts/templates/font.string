@@ -1,0 +1,12 @@
+<div class="swiper-container" id="font-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    	<img src="/zlwm/images/font1.jpg"/>
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+    	<img src="/zlwm/images/font2.jpg" />
+    </div>
+    
+   
+  </div>
+</div>

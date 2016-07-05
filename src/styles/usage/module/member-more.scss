@@ -1,0 +1,14 @@
+.more-boundced{
+    ul{
+        @include flexbox();
+        @include flex-direction(column);
+        li{
+            width: 100%;
+            
+            &:nth-child(1){
+                
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,14 @@
+	<div class="m-index">
+		<div class="l-container">
+			
+		</div>
+		<footer>
+			<ul>
+				<li class="action" action-type="switch.tabs" data-y="home"><i class="yo-ico">&#xe604;</i><b>首页</b></li>
+				<li action-type="switch.tabs" data-y="search"><i class="yo-ico" >&#xe696;</i><b>分类</b></li>
+				<li action-type="switch.tabs" data-y="shop"><i class="yo-ico" >&#xe652;</i><b>商铺</b></li>
+				<li action-type="switch.tabs" data-y="member"><i class="yo-ico" data-tag="member">&#xe608;</i><b>会员</b></li>
+				<li action-type="switch.tabs" data-y="more"><i class="yo-ico" >&#xe7f3;</i><b>更多</b></li>
+			</ul>
+		</footer>
+	</div>

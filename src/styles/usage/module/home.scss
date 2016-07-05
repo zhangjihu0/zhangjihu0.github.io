@@ -1,0 +1,131 @@
+.m-index{  
+    .l-container{       
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+        //background: yellow;
+            header{
+               width:100% ;
+               height:.44rem;
+               background:#00a0e8; 
+               font-size:.22rem;
+               text-align: center;
+               line-height: .44rem;
+               font-weight:bold;
+               font-family: "微软雅黑";
+               color: white;
+            }
+            nav{
+               width:100%;
+               height: 100%;
+               //background:cyan; 
+               
+            }
+            #section-swiper{
+               @include flex(1);
+                width:100%;
+                
+            }
+            section{
+              //@include flex(1); 
+              //overflow: hidden;
+              height: 100%;
+               width: 100%;
+    
+               
+               //background: mistyrose;
+                img{
+                  width:100%;  
+                }
+                .allSearch{
+                    width: 100%;
+                   // background: yellowgreen;
+                    @include flexbox();
+                    
+                    @include justify-content(center);
+                    .search{
+                        margin-top:0.1rem;   
+                         position: relative;
+                         //border:1px solid #d8d8d8;
+                         @include border-radius(.1rem);
+                         @include border(1px,#d9d9d9,solid,.1rem);
+                         //background: yellow;
+                        @include box-sizing(border-box);
+                         width: 95%;
+                         height: 0.44rem;
+                         //background: lightskyblue; 
+                         @include flexbox();
+                         @include align-items(flex-start);
+                        .yo-ico{
+                            display: inline-block;
+                            color: red;
+                            font-size: .22rem;
+                            }
+                         .search-logo{
+                            padding: 0 0.05rem 0 0.1rem; 
+                            }
+                          .search-QRCode{
+                            padding-left:70%;
+                            }
+                        }  
+                }
+                .list{
+                    width: 100%;
+                    @include flexbox();
+                    @include justify-content(center);
+//                  background: red;
+                    ul{
+                        margin-top:.1rem;
+                     width: 95%;
+//                   background: white;
+                      overflow: hidden;
+                      @include flexbox();
+                     li{
+                       @include flex(1);
+                      
+                       &:not(:nth-child(4)){
+                          margin-right: 0.03rem;  
+                       }
+                     }  
+                    }
+                }
+                 .four{
+                      @include flexbox();
+                      
+                     @include justify-content(center);
+                     width: 100%;
+                     ul{
+                        margin-top: 0.1rem;
+                        @include flexbox();
+                        width: 95%;
+                        
+                       li{
+                           @include flex(1);
+                           width: 100%;
+                       }   
+                     }
+                 } 
+                 .tuijian{
+                     width: 100%;
+//                   background: burlywood;
+                     @include flexbox();
+                     @include justify-content(center);
+                    .photo{
+//                      background:yellow;
+                        width:95%;
+                        @include flexbox();
+                        @include flex-direction(column);
+                        
+                       img{
+                           margin-top:0.1rem ;
+                           @include flex(1);
+                            width: 100%;
+                       }
+                    }
+                 }
+            }
+        }
+    }
+   
+}
